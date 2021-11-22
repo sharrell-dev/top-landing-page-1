@@ -104,4 +104,32 @@ h3 {
     border-style: dashed;
     border-width: 2px;  
 }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    height: 150px;
+    margin-top: 30px;
+    background-color: rgb(216, 216, 216);
+    border-color:rgb(186, 212, 230);
+    border-style: dashed;
+    border-width: 2px;    
+}
+
+p:first-child {
+    width: 80%;
+    margin-top: 30px;
+    border-color:rgb(202, 245, 209);
+    border-style: dashed;
+    border-width: 2px;   
+}
+p:last-child {
+    align-self: flex-end;
+    width: 20%;
+    padding-right: 10%;
+    border-color:rgb(42, 241, 75);
+    border-style: dashed;
+    border-width: 2px;
 }
